@@ -219,9 +219,10 @@ class GridGame extends HTMLElement {
 
         if (!hasClass(element, CLASS_NAMES.OPEN)) {
           addClass(element, CLASS_NAMES.OPEN);
-          PlaySound(ESounds.OPEN);
         }
       });
+
+      PlaySound(ESounds.OPEN);
     }
   }
 
